@@ -24,13 +24,31 @@ body {
 }
 
 .cabecalho {
-    padding-left: 10%;
-    padding-top: 2%;
+    padding: 2%;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+}
+
+.cabecalho__nome {
+    color: var(--cor-terciaria);
+    font-family: var(--font-secundaria);
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho__nome__link {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--font-secundaria);
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .cabecalho__menu {
+    color: var(--cor-terciaria);
+    font-family: var(--font-secundaria);
     display: flex;
-    flex-direction: row;
     gap: 20px;
 }
 
@@ -44,6 +62,7 @@ body {
 
 .apresentacao {
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     padding: 5% 10%;
@@ -108,6 +127,7 @@ body {
 
 .rodape {
     padding: 24px;
+    width: 100%;
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--font-secundaria);
@@ -121,6 +141,9 @@ body {
         padding: 10% 2% 2% 2%;
     }
 
+    .cabecalho__nome{
+        justify-content: center;
+    }
     .cabecalho__menu{
         justify-content: center;
     }
