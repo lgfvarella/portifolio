@@ -1,0 +1,36 @@
+.cabecalho {
+  padding: 2%;
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+}
+
+.cabecalho__nome {
+  color: var(--cor-terciaria);
+  font-family: var(--font-secundaria);
+  display: flex;
+  gap: 20px;
+}
+
+.cabecalho__nome__link {
+  text-decoration: none;
+  color: var(--cor-terciaria);
+  font-family: var(--font-secundaria);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.cabecalho__menu {
+  color: var(--cor-terciaria);
+  font-family: var(--font-secundaria);
+  display: flex;
+  gap: 20px;
+}
+
+.cabecalho__menu__link {
+  text-decoration: none;
+  color: var(--cor-terciaria);
+  font-family: var(--font-secundaria);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
