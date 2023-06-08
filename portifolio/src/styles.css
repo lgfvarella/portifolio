@@ -8,6 +8,8 @@
     --cor-terciaria: #00ADB5;
     --font-primaria: 'Krona One', sans-serif;
     --font-secundaria: 'Montserrat', sans-serif;
+    --trasparent-primary: #00ADB5e0;
+    --box-shadow: 0 0 5px #c0b4b4;
 }
 
 * {
@@ -22,25 +24,4 @@ body {
     max-width: 100%;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria)
-}
-
-@media (min-width: 576px) {
-  .container {
-      width: 540px;
-  }
-}
-@media (min-width: 768px) {
-  .container {
-      width: 720px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-      width: 960px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-      width: 1140px;
-  }
 }

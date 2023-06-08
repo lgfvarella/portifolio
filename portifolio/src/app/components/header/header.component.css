@@ -1,36 +1,31 @@
-.cabecalho {
-  padding: 2%;
+/* .navbar{
+  background-color: var(--trasparent-primary);
+  height: 20vh;
+}
+
+.toggle-button {
+  background-color: initial;
+  border: none;
+  color: var(--bright-main);
+  cursor: pointer;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+} */
+
+/* .menu__list{
+  align-items: center;
+  background-color: var(--trasparent-primary);
+  box-shadow: var(--box-shadow);
   display: flex;
-  justify-content:space-around;
-  width: 100%;
-}
-
-.cabecalho__nome {
-  color: var(--cor-terciaria);
-  font-family: var(--font-secundaria);
-  display: flex;
-  gap: 20px;
-}
-
-.cabecalho__nome__link {
-  text-decoration: none;
-  color: var(--cor-terciaria);
-  font-family: var(--font-secundaria);
-  font-weight: 600;
-  font-size: 1.5rem;
-}
-
-.cabecalho__menu {
-  color: var(--cor-terciaria);
-  font-family: var(--font-secundaria);
-  display: flex;
-  gap: 20px;
-}
-
-.cabecalho__menu__link {
-  text-decoration: none;
-  color: var(--cor-terciaria);
-  font-family: var(--font-secundaria);
-  font-weight: 600;
-  font-size: 1.5rem;
-}
+  font-size: 1.1rem;
+  gap: 5rem;
+  justify-content: center;
+  left: 0;
+  padding: 15px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 4;
+  list-style: none;
+} */
