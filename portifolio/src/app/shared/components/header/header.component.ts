@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  ehLight: boolean = false;
+
+  constructor(){}
+
+  switchForLight(){
+    document.body.classList.toggle('light');
+    this.ehLight =!this.ehLight;
+  }
+
+
 }

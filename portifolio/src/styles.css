@@ -1,12 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@1&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
 
 :root {
   --cor-hover: #393E46;
+  --cor-hover-light: #393E46;
   --cor-primaria: #1b1a1a;
+  --cor-primaria-light: #DDE6ED;
   --cor-secundaria: #EEEEEE;
+  --cor-secundaria-light: #DDE6ED;
   --cor-terciaria: #00ADB5;
-  --font-primaria: 'Krona One', sans-serif;
+  --cor-terciaria-light: #00ADB5;
+  --font-primaria: 'Mulish', sans-serif;
   --font-secundaria: 'Montserrat', sans-serif;
   --trasparent-primary: #00ADB5e0;
   --box-shadow: 0 0 5px #c0b4b4;
@@ -19,9 +25,16 @@
 
 body {
   box-sizing: border-box;
-  justify-content: center;
-  align-items: center;
   max-width: 100%;
   background-color: var(--cor-primaria);
-  color: var(--cor-secundaria)
+  color: var(--cor-terciaria);
+  font-family: var(--font-primaria);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2.2;
+}
+
+.light{
+  background-color: var(--cor-primaria-light);
+  /* color: var(--cor-primaria) */
 }

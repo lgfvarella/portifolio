@@ -1,16 +1,16 @@
 <footer class="p-4 text-light text-center py-5 col">
   <div class="container">
     <div class="footer__social">
-      <a href="#top">To top</a>
+      <a (click)="toTop()">To top</a>
       <a href="https://github.com/lgfvarella" target="blank" title="Visit My Github">Github</a>
       <a href="https://www.linkedin.com/in/lgvarelladevs/" target="blank" title="Visit My Linkedin">Linkedin</a>
       <a href="mailto: lgfvarella@gmail.com" target="blank" title="Send me an e-mail">E-mail</a>
     </div>
     <div class="footer__links">
-      <a href="#toTop">Home</a>
-      <a href="#toTop">Portifólio</a>
-      <a href="#toTop">Sobre</a>
-      <a href="#toTop">Contato</a>
+      <a [routerLink]="['/home']">Home</a>
+      <a [routerLink]="['/portifolio']">Portifólio</a>
+      <a [routerLink]="['/about']">Sobre</a>
+      <a [routerLink]="['/contato']">Contato</a>
     </div>
   </div>
   <div class="footer__logos">

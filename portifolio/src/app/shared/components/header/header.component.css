@@ -1,0 +1,21 @@
+.navbar{
+  font-size: 1.2rem;
+  background-color: var(--cor-terciaria)
+}
+
+.navbar-nav{
+  gap: 3rem;
+}
+
+button{
+  background-color: initial;
+  border: none;
+  font-size: 1.8rem;
+}
+.active{
+  color: white;
+  font-weight: bold;
+}
+
+
+
