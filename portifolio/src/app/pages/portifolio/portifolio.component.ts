@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-portifolio',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./portifolio.component.css']
 })
 export class PortifolioComponent {
+
 
 }
