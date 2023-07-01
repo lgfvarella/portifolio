@@ -1,0 +1,24 @@
+<div class="cartao-container" (mouseenter)="toggleShow(true)" (mouseout)="toggleShow(false)" >
+  <div class="bgImg" >
+    <img src="{{card.imagem}}" alt="">
+    <div *ngIf="showMyContainer" class="cartao-body cartao-sobreposicao">
+      <h5 class="cartao-title">{{ card.title }}</h5>
+      <p class="cartao-text">{{ card.description }}</p>
+      <div class="cartao-links">
+        <a
+          href="{{ card.githubLink }}" target="_blank"
+          rel="noreferrer"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+        <a
+          href="{{ card.projectLink }}"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i class="bi bi-link-45deg"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

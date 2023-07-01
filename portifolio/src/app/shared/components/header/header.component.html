@@ -4,9 +4,11 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas offcanvas-end  " tabindex="-1"
+      [ngClass]="{'text-bg-dark': !ehLight,'menuMobile': ehLight}"
+      id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -20,9 +22,9 @@
             <li class="nav-item">
               <a class="nav-link" [routerLink]="['/about']" routerLinkActive="active" >Sobre</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" [routerLink]="['/contato']" routerLinkActive="active" >Contato</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" [routerLink]="['/resume']" routerLinkActive="active">Currículo</a>
             </li>
