@@ -1,10 +1,14 @@
-<div class="cartao-container" (mouseenter)="toggleShow(true)" (mouseout)="toggleShow(false)" >
-  <div class="bgImg" >
-    <img src="{{card.imagem}}" alt="">
-    <div *ngIf="showMyContainer" class="cartao-body cartao-sobreposicao">
-      <h5 class="cartao-title">{{ card.title }}</h5>
-      <p class="cartao-text">{{ card.description }}</p>
-      <div class="cartao-links">
+<div class="card-container">
+  <div class="card-box" >
+    <div class="card-header">
+    <img class="card-img" src="{{ card.imagem }}" alt="">
+    </div>
+    <div class="card-bdy">
+      <h3 class="card-title">{{ card.title }}</h3>
+      <p class="card-text">
+        {{ card.description }}
+      </p>
+      <div class="card-footer" >
         <a
           href="{{ card.githubLink }}" target="_blank"
           rel="noreferrer"

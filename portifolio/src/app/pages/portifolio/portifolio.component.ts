@@ -9,18 +9,18 @@ export class PortifolioComponent implements OnInit {
 
   projetosList = [
     {
-      title:"Portifólio Version-1",
+      title:"Portifólio V1",
       description:"Angular, Typescrypt, HTML5, CSS3, Bootstrap",
       githubLink:"https://www.google.com/",
       projectLink:"https://www.cnn.com/",
       imagem:"../../../assets/potifolioImg.png"
     },
     {
-      title:"teste 02",
-      description:"teste desc 02",
-      githubLink:"",
-      projectLink:"",
-      imagem:"../../../assets/twitch.png"
+      title:"Adivinhe o Número",
+      description:"Javascript, HTML5, CSS3",
+      githubLink:"https://github.com/lgfvarella/numeroOculto",
+      projectLink:"https://lgfvarella.github.io/numeroOculto/",
+      imagem:"../../../assets/numeroOculto.png"
     },
     {
       title:"teste 03",

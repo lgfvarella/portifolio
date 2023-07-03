@@ -1,46 +1,51 @@
-.cartao-container{
-  display: flex;
-  margin: 2rem;
-  border-radius: 8px;
-  box-shadow: var(--box-shadow);
-  height: 20rem;
-  width: 22rem;
-}
-.bgImg img{
-  display: flex;
-  height: 20rem;
-  width: 22rem;
-  border-radius: 8px;
-}
-.cartao-body{
-  margin: auto;
+
+.card-box{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  gap: 2rem;
+  height: 28rem;
+  min-width: 20rem;
+  width:auto;
+  margin: 1rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: var(--box-shadow)
+}
+.card-header{
+  height: 50%;
+  width: 100%;
+  overflow: hidden;
+}
+.card-img{
+  width: 20rem;
+  height: 100%;
+}
+.card-bdy{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   text-align: center;
-  gap: 1rem;
-  background-color: rgba(0,0,0,.836);
-  height: 15rem;
-  width: 17rem;
 }
-.cartao-sobreposicao{
-  border-radius: 15px;
-  background-color: rgba(0,0,0);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  opacity: 95%;
-}
-
-
-.cartao-links{
-  display: flex;
-  gap: 1rem;
-}
-
-i{
+.card-title{
   font-size: 1.5rem;
-  color: var(--cor-terciaria);
 }
+.card-text{
+  font-size: 0.9rem;
+  width: 20rem;
+  margin: 0 auto;
+}
+.card-footer{
+  margin-top: 0.6rem;
+  text-align: center;
+  background-color: black;
+  min-width: 100%;
+}
+.card-footer a{
+  color: #fff;
+  padding: 2rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  overflow: hidden;
+}
+
+
