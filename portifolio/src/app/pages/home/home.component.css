@@ -53,22 +53,17 @@
   scale: 0.95;
 }
 
-#imgSlide1{
-  height: 75vh;
+.banner{
+  display: flex;
+  justify-content: center;
 }
-#imgSlide2{
-  margin: auto;
-  height: 75vh;
-}
-#imgSlide3{
-  margin: auto;
-  height: 75vh;
+
+.banner__imagem{
+  max-width: 50vw;
+  min-width: 40vw;
 }
 
 @media only screen and (max-width: 767px){
-  .apresentacao{
-    height: 90vh;
-  }
   .apresentacao__titulo_principal {
     font-size: 3rem;
     letter-spacing: -2px;
@@ -85,10 +80,4 @@
     height: 3rem;
     min-width: 8rem;
   }
-
-  #imgSlide2{
-    margin: auto;
-    height: 25vh;
-  }
-
 }
