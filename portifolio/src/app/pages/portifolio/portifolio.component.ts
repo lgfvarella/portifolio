@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Portifolio } from 'src/app/shared/interfaces/portifolio';
+import { PortifolioService } from 'src/app/shared/services/portifolio.service';
 
 @Component({
   selector: 'app-portifolio',
@@ -7,51 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortifolioComponent implements OnInit {
 
-  projetosList = [
-    {
-      title:"Portifólio V1",
-      description:"Angular, Typescrypt, HTML5, CSS3, Bootstrap",
-      githubLink:"https://www.google.com/",
-      projectLink:"https://www.cnn.com/",
-      imagem:"../../../assets/potifolioImg.png"
-    },
-    {
-      title:"Adivinhe o Número",
-      description:"Javascript, HTML5, CSS3",
-      githubLink:"https://github.com/lgfvarella/numeroOculto",
-      projectLink:"https://lgfvarella.github.io/numeroOculto/",
-      imagem:"../../../assets/numeroOculto.png"
-    },
-    {
-      title:"teste 03",
-      description:"teste desc 03",
-      githubLink:"",
-      projectLink:"",
-      imagem:""
-    },
-    {
-      title:"teste 04",
-      description:"teste desc 04",
-      githubLink:"",
-      projectLink:"",
-      imagem:""
-    },
-    {
-      title:"teste 05",
-      description:"teste desc 05",
-      githubLink:"",
-      projectLink:"",
-      imagem:""
-    },
-  ];
+  projetosList: Portifolio[] = [];
 
-  constructor(){}
+  constructor(private service: PortifolioService){}
 
   ngOnInit(): void {
-    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-    //Add 'implements OnInit' to the class.
-
+    this.service.listar().subscribe((projetosList) =>{
+      console.log(projetosList)
+      this.projetosList = projetosList;
+    })
   }
-
-
 }

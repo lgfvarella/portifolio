@@ -1,22 +1,22 @@
 <div class="card-container">
   <div class="card-box" >
     <div class="card-header">
-    <img class="card-img" src="{{ card.imagem }}" alt="">
+    <img class="card-img" src="../../../../assets/{{ card.name }}.png" alt="">
     </div>
     <div class="card-bdy">
-      <h3 class="card-title">{{ card.title }}</h3>
+      <h3 class="card-title">{{ card.name }}</h3>
       <p class="card-text">
         {{ card.description }}
       </p>
       <div class="card-footer" >
         <a
-          href="{{ card.githubLink }}" target="_blank"
+          href="{{ card.html_url }}" target="_blank"
           rel="noreferrer"
         >
           <i class="bi bi-github"></i>
         </a>
         <a
-          href="{{ card.projectLink }}"
+          href="{{ card.homepage }}"
           target="_blank"
           rel="noreferrer"
         >

@@ -7,11 +7,10 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CardComponent implements OnInit{
   @Input() card = {
-    title:"",
+    name:"",
     description:"",
-    githubLink:"",
-    projectLink:"",
-    imagem:""
+    html_url:"",
+    homepage:"",
   }
   showMyContainer: boolean = false;
 
