@@ -9,10 +9,10 @@ Fiz essa primeira versão do meu Portifólio com objetivo de promover o meu trab
 
 
 ## Layout mobile
-![Mobile 1](https://github.com/lgfvarella/portifolio/src/assets/portifolioLayoutMobile.png)
+![Mobile 1](https://github.com/lgfvarella/portifolio/portifolio/src/assets/portifolioLayoutMobile.png)
 
 ## Layout web
-![Web 1](https://github.com/lgfvarella/portifolio/src/assets/portifolioLayoutWeb.png)
+![Web 1](https://github.com/lgfvarella/portifolio/portifolio/src/assets/portifolioLayoutWeb.png)
 
 # Tecnologias utilizadas
 ## Back end
