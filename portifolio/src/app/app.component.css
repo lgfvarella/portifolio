@@ -1,5 +1,11 @@
 main{
-  margin: 5rem 0.5rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.ligth{
+  background-color: var(--cor-primaria-light);
+  color:var(--cor-secundaria);
 }
 
 

@@ -15,8 +15,12 @@ export class PortifolioComponent implements OnInit {
 
   ngOnInit(): void {
     this.service.listar().subscribe((projetosList) =>{
-      console.log(projetosList)
-      this.projetosList = projetosList;
+      for(const projeto of projetosList){
+        if(projeto.name != "lgfvarella"){
+          this.projetosList.push(projeto)
+        }
+
+      }
     })
   }
 }

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Portifólio';
+  ehLigth : boolean = false;
+
+  receiveEvent($event: boolean){
+    this.ehLigth = $event
+  }
 }

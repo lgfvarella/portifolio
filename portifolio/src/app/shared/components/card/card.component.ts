@@ -12,14 +12,14 @@ export class CardComponent implements OnInit{
     html_url:"",
     homepage:"",
   }
+  urlImg:string = ``
   showMyContainer: boolean = false;
 
   constructor(){}
 
 
   ngOnInit(): void {
-    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-    //Add 'implements OnInit' to the class.
+    this.urlImg = `../../../../../../assets/${this.card.name}.png`
   }
 
   toggleShow(status:boolean){

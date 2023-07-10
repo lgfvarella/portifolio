@@ -5,7 +5,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="offcanvas offcanvas-end  " tabindex="-1"
-      [ngClass]="{'text-bg-dark': !ehLight,'menuMobile': ehLight}"
+      [ngClass]="{'text-bg-dark': !alternando,'menuMobile': alternando}"
       id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
@@ -26,10 +26,10 @@
               <a class="nav-link" [routerLink]="['/contato']" routerLinkActive="active" >Contato</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link" [routerLink]="['/resume']" routerLinkActive="active">Currículo</a>
+              <a class="nav-link" href="../../../../assets/Profile.pdf" target="_blank">Currículo</a>
             </li>
             <button (click)="switchForLight()">
-              <i class="bi" [ngClass]="{'bi-moon-fill': ehLight == true,'bi-lightbulb-fill': ehLight == false}"></i>
+              <i class="bi" [ngClass]="{'bi-moon-fill': alternando == true,'bi-lightbulb-fill': alternando == false}"></i>
             </button>
           </ul>
         </div>

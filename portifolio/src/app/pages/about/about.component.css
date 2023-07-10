@@ -1,41 +1,53 @@
-.container-fluid{
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
 .about{
   display: flex;
-  flex-direction: row-reverse;
-  margin: 0 auto;
-  width: 75vw;
-}
-.about__img{
-  width: 50%;
-}
-
-.about__text{
-  display: flex;
   flex-direction: column;
-  gap: 3rem;
-  text-align: justify;
+  align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  gap: 4rem;
+  width: 75vw;
+  margin: auto;
+}
+.about__box{
+  display: flex;
+  width: 100%;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.about__box_text{
+  display: flex;
   width: 50%;
+  gap: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+.about__box_img{
+  width: 50%;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
 }
 
 .skills{
   display: flex;
   flex-direction: row;
   gap: 4rem;
-  margin: 0 auto;
+  margin: auto;
   width: 75vw;
+}
+.skills_wrapper{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  min-width: 18rem;
 }
 .skills_box{
   text-align: center;
+  width: 100%;
   min-width: 18rem;
   max-width: 30rem;
-
 }
 
 .skills_box a{
@@ -84,12 +96,16 @@ a img:hover{
     align-items: center;
     justify-content: center;
   }
-  .about__img{
+  .about__box{
+    flex-direction: column;
+    width: 100%;
+  }
+  .about__box_img{
     width: 75vw;
     align-items: center;
     justify-content: center;
   }
-  .about__text{
+  .about__box_text{
     gap: 1rem;
     width: 75vw;
   }

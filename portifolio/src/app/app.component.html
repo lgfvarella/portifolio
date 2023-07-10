@@ -1,6 +1,6 @@
-<app-header></app-header>
-<main>
+<app-header (ehLight)="receiveEvent($event)"></app-header>
+<main [ngClass]="{'ligth': ehLigth}">
   <router-outlet></router-outlet>
 </main>
-<app-footer></app-footer>
+<app-footer [ehLight]="ehLigth"></app-footer>
 

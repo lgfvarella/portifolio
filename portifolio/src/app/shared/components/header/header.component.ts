@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,13 +7,14 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  ehLight: boolean = false;
+  @Output() ehLight = new EventEmitter<boolean>();
+  alternando:boolean = false;
 
   constructor(){}
 
   switchForLight(){
-    document.body.classList.toggle('light');
-    this.ehLight =!this.ehLight;
+    this.alternando = !this.alternando
+    this.ehLight.emit(this.alternando);
   }
 
 

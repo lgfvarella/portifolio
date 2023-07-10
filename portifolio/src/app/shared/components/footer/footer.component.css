@@ -6,6 +6,7 @@ footer {
   flex-direction: column;
   font-size: 1rem;
   gap: 2rem;
+
 }
 .container{
   display: flex;
@@ -40,4 +41,9 @@ footer {
 
 .bi-linkedin{
   color: #0a66c2;
+}
+
+.light{
+  background-color: var(--cor-primaria-light);
+  /* color: var(--cor-primaria) */
 }
