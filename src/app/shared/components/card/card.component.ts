@@ -19,7 +19,7 @@ export class CardComponent implements OnInit{
 
 
   ngOnInit(): void {
-    this.urlImg = `../../assets/${this.card.name}.png`
+    this.urlImg =`src/assets/${this.card.name}.png`
   }
 
   toggleShow(status:boolean){
