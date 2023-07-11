@@ -10,7 +10,7 @@
 button{
   background-color: initial;
   border: none;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 .active{
   font-weight: bold;
@@ -18,11 +18,9 @@ button{
 
 .bi-lightbulb-fill{
   color: white;
-  font-size: 1.8rem;
 }
 .bi-moon-fill{
   color: black;
-  font-size: 1.8rem;
 }
 
 .menuMobile{
