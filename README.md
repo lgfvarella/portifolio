@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-https://
+https://lgfvarella.github.io/portifolio/
 
 Fiz essa primeira versão do meu Portifólio com objetivo de promover o meu trabalho e destacar minhas habilidades, oferecendo uma visão geral da minha trajetória profissional e dos projetos desenvolvidos.
 
@@ -26,7 +26,7 @@ Fiz essa primeira versão do meu Portifólio com objetivo de promover o meu trab
 - Angular
 
 ## Implantação em produção
-- Front end web: Vercel
+- Front end web: GitHub-Pages
 
 # Como executar o projeto
 
