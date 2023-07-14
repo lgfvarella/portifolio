@@ -14,8 +14,6 @@ Fiz essa primeira versão do meu Portifólio com objetivo de promover o meu trab
 ## Layout web
 ![Web 1](https://github.com/lgfvarella/portifolio/blob/main/src/assets/portifolio.png#vitrinedev)
 
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
-
 # Tecnologias utilizadas
 ## Back end
 - API GitHub
