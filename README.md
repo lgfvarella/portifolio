@@ -12,7 +12,7 @@ Fiz essa primeira versão do meu Portifólio com objetivo de promover o meu trab
 ![Mobile 1](https://github.com/lgfvarella/portifolio/blob/main/src/assets/portifolioLayoutMobile.png)
 
 ## Layout web
-![Web 1](https://github.com/lgfvarella/portifolio/blob/main/src/assets/portifolio.png)
+![Web 1](https://github.com/lgfvarella/portifolio/blob/main/src/assets/portifolio.png#vitrinedev)
 
 # Tecnologias utilizadas
 ## Back end
