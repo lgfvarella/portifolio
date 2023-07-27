@@ -89,7 +89,7 @@ a img:hover{
   border-radius: 8px;
   box-shadow: var(--box-shadow);
 }
-.vitrineDevLink{
+/* .vitrineDevLink{
   justify-content: center;
   background-color: transparent;
   border: 2px solid #fff;
@@ -100,7 +100,7 @@ a img:hover{
   border-radius: 5rem;
   margin: 0.1rem;
   padding: 0.1rem;
-}
+} */
 
 @media only screen and (max-width: 767px){
   .about{
